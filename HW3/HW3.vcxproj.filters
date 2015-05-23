@@ -18,12 +18,12 @@
     <ClCompile Include="minimax.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\Draughts.c">
+    <ClCompile Include="Draughts.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\Draughts.h">
+    <ClInclude Include="Draughts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
