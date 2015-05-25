@@ -2,11 +2,11 @@
 
 int main()
 {
-	int d;
 	char board[BOARD_SIZE][BOARD_SIZE];
 	init_board(board);
 	print_board(board);
 	print_message(WRONG_MINIMAX_DEPTH);
+	perror_message("TEST");
 	return 0;
 }
 
