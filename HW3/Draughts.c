@@ -1,7 +1,12 @@
 #include "Draughts.h"
 
+//Global Settings
+int minimaxDepth = 1;
+int userColor = 0; //0 is white, 1 is black
+
 int main()
-{
+{	
+	
 	char board[BOARD_SIZE][BOARD_SIZE];
 	init_board(board);
 	print_board(board);
